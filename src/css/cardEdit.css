@@ -1,0 +1,69 @@
+.editForm {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+}
+
+.editRow {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.editRow > .validThruv,
+.validThruv input {
+  text-align: end;
+}
+.editPreview {
+  background: rgb(82, 150, 228);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+
+.editPreview input {
+  background-color: transparent;
+  color: white;
+  border: 0;
+  outline: none;
+}
+
+.previewAndForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: fit-content;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+}
+
+.rjsForm {
+  padding: 1rem;
+}
+
+.expiration {
+  border: 1px solid black;
+}
+
+.expiration input {
+  border: 0;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+.validthruv {
+  display: flex;
+  flex-direction: row;
+}

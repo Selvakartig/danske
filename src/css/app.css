@@ -1,0 +1,38 @@
+@import "./card.css";
+@import "./index.css";
+@import "./cardEdit.css";
+
+body {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.addBtn {
+  margin: 1rem 0;
+  text-align: end;
+}
+
+button {
+  background: rgb(64, 184, 116);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.backBtn {
+  background: none;
+  color: black;
+  border: 2px solid black;
+}
+.bDiv {
+  display: flex;
+  align-self: flex-start;
+}
+.errorMsg {
+  font-size: small;
+  color: red;
+  position: absolute;
+  bottom: -5px;
+}
